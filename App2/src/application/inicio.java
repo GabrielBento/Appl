@@ -48,7 +48,7 @@ public class inicio implements Initializable, controle {
 		boolean verificar_User2 = user.matches("[a-zA-Z]\\w+@\\w{3,10}+\\.\\w{2,3}");
 		av1.setText("");
 		av2.setText("");
-		/*
+		
 		if(verificar_User == true || verificar_User2 == true )
 		{
 			av1.setText("");
@@ -63,9 +63,9 @@ public class inicio implements Initializable, controle {
 						{
 							email.setText("");
 							senha.setText("");
-							*/
+							
 							mind.setScreen(Main.Second_SCREEN);
-							/*
+							
 						} 
 						if(log.getSen() == false)
 						{
@@ -91,7 +91,7 @@ public class inicio implements Initializable, controle {
 		{
 			av2.setText("Campo obrigatório");
 		}
-	*/
+	
 		
 	}
 	@FXML

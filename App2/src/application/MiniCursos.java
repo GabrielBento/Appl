@@ -14,7 +14,10 @@ import javafx.scene.control.Button;
 
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.util.Callback;
 
 public class MiniCursos implements Initializable, controle {
 	@FXML
@@ -48,6 +51,7 @@ public class MiniCursos implements Initializable, controle {
 		box1.setItems(lista1);
 		box1.setValue("Lógica de Programação");
 		box1.getStylesheets().addAll(getClass().getResource("application.css").toExternalForm());
+		box1.setEditable(false);
 		ImageView();
 		
 	}

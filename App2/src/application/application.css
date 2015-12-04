@@ -308,6 +308,6 @@
 	-fx-background-size: contain;
 }
 #box1{
+	-fx-background-color: purple ;
 	-fx-text-fill: white;
-	-fx-tick-label-fill: white ;
 }
