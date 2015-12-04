@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.meuDescarte">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/MeuDescarte/FundoMD.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back1" layoutX="14.0" layoutY="454.0" mnemonicParsing="false" onAction="#goToMy" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: NONE; -fx-background-radius: NONE;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="kdt2" layoutX="166.0" layoutY="454.0" mnemonicParsing="false" onAction="#goToLoad" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: NONE; -fx-background-radius: NONE;" text="Cadastrar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <TextField fx:id="txf6" layoutX="14.0" layoutY="345.0" prefHeight="100.0" prefWidth="272.0" style="-fx-box-border: transparent; -fx-border-radius: 50;" />
+      <TextField fx:id="txf2" layoutX="104.0" layoutY="122.0" prefHeight="26.0" prefWidth="184.0" />
+      <TextField fx:id="txf3" layoutX="104.0" layoutY="161.0" prefHeight="26.0" prefWidth="184.0" />
+      <TextField fx:id="txf4" layoutX="104.0" layoutY="202.0" prefHeight="26.0" prefWidth="184.0" />
+      <TextField fx:id="txf5" layoutX="104.0" layoutY="240.0" prefHeight="26.0" prefWidth="184.0" />
+      <TextField fx:id="txf" layoutX="104.0" layoutY="81.0" prefHeight="26.0" prefWidth="184.0" />
+      <ChoiceBox fx:id="ch1" layoutX="138.0" layoutY="283.0" onDragDetected="#caixa" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: none; -fx-background-radius: none;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MiniCursos">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/fundoMinicurso.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="box1" layoutX="11.0" layoutY="86.0" prefHeight="25.0" prefWidth="279.0" style="-fx-background-radius: none; -fx-background-color: purple;" />
+      <Label layoutX="11.0" layoutY="62.0" text="Selecione o curso desejado" textFill="WHITE" />
+      <Label layoutX="11.0" layoutY="125.0" prefHeight="25.0" prefWidth="198.0" text="Nome" textFill="WHITE" />
+      <TextField fx:id="nome2" layoutX="11.0" layoutY="150.0" prefHeight="25.0" prefWidth="279.0" />
+      <Label layoutX="11.0" layoutY="186.0" prefHeight="25.0" prefWidth="198.0" text="CPF" textFill="WHITE" />
+      <TextField fx:id="cpf" layoutX="11.0" layoutY="211.0" prefHeight="25.0" prefWidth="279.0" />
+      <Label layoutX="11.0" layoutY="250.0" prefHeight="25.0" prefWidth="198.0" text="E-mail" textFill="WHITE" />
+      <TextField fx:id="email2" layoutX="11.0" layoutY="275.0" prefHeight="25.0" prefWidth="279.0" />
+      <Button fx:id="back2" layoutX="11.0" layoutY="447.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="32.0" prefWidth="120.0" style="-fx-background-radius: none; -fx-background-color: none;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="cadastrar2" layoutX="170.0" layoutY="447.0" mnemonicParsing="false" onAction="#cadas" prefHeight="32.0" prefWidth="120.0" style="-fx-background-radius: none; -fx-background-color: none;" text="Cadastrar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Label fx:id="txt_nom" layoutX="11.0" layoutY="178.0" textFill="#d01616" />
+      <Label fx:id="txt_cpf" layoutX="11.0" layoutY="237.0" textFill="#d01616" />
+      <Label fx:id="txt_ema" layoutX="11.0" layoutY="301.0" textFill="#d01616" />
+   </children>
+</AnchorPane>

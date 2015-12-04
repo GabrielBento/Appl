@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Configura">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Configurar/FundoConfig.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back02" layoutX="30.0" layoutY="454.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: gray; -fx-background-radius: none; -fx-border-style: none; -fx-background-color: none;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="sal" layoutX="155.0" layoutY="454.0" mnemonicParsing="false" onAction="#go" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: gray; -fx-background-radius: none; -fx-background-color: none;" text="Salvar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <TextField fx:id="email_Ant" layoutX="31.0" layoutY="151.0" prefHeight="26.0" prefWidth="244.0" style="-fx-background-radius: none;" />
+      <TextField fx:id="email_Nov" layoutX="31.0" layoutY="221.0" prefHeight="26.0" prefWidth="244.0" style="-fx-background-radius: none;" />
+      <PasswordField fx:id="senha_Ant" layoutX="30.0" layoutY="291.0" prefHeight="26.0" prefWidth="244.0" style="-fx-background-radius: none;" />
+      <PasswordField fx:id="senha_Nov" layoutX="30.0" layoutY="363.0" prefHeight="26.0" prefWidth="244.0" style="-fx-background-radius: none;" />
+      <Label layoutX="31.0" layoutY="135.0" text="Antigo email" textFill="WHITE" />
+      <Label layoutX="30.0" layoutY="205.0" text="Novo Email" textFill="WHITE" />
+      <Label layoutX="30.0" layoutY="275.0" text="Antiga Senha" textFill="WHITE" />
+      <Label layoutX="30.0" layoutY="347.0" text="Nova Senha" textFill="WHITE" />
+      <Label fx:id="l1" layoutX="31.0" layoutY="183.0" prefHeight="16.0" prefWidth="244.0" textFill="RED" />
+      <Label fx:id="l2" layoutX="30.0" layoutY="254.0" prefHeight="16.0" prefWidth="244.0" textFill="RED" />
+      <Label fx:id="l3" layoutX="31.0" layoutY="329.0" prefHeight="16.0" prefWidth="244.0" textFill="RED" />
+      <Label fx:id="l4" layoutX="31.0" layoutY="399.0" prefHeight="16.0" prefWidth="244.0" textFill="RED" />
+      <TextField fx:id="nome" layoutX="31.0" layoutY="81.0" prefHeight="26.0" prefWidth="244.0" style="-fx-background-radius: none;" />
+      <Label layoutX="31.0" layoutY="65.0" text="Mudar Nome de Usuário" textFill="WHITE" />
+      <Label fx:id="l" layoutX="31.0" layoutY="113.0" prefHeight="16.0" prefWidth="244.0" textFill="RED" />
+   </children>
+</AnchorPane>

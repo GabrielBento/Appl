@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.About4">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/OutrasTelas/Fundo4.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="myIn4" layoutX="14.0" layoutY="459.0" mnemonicParsing="false" onAction="#goToMenuInfo" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: none; -fx-background-radius: none;" text="Sair" textFill="WHITE" >
+     	<font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="nxt4" layoutX="210.0" layoutY="459.0" mnemonicParsing="false" onAction="#goToNext" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: none; -fx-background-radius: none;" text="Proximo" textFill="WHITE" >
+      	<font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="bb4" layoutX="110.0" layoutY="459.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: none; -fx-background-radius: none;" text="Voltar" textFill="WHITE" >
+   		<font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

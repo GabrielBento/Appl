@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.inicio">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/fundoPrincipal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ent" layoutX="25.0" layoutY="447.0" mnemonicParsing="false" onAction="#goTo" prefHeight="38.0" prefWidth="115.0" style="-fx-border-style: none; -fx-border-radius: 0; -fx-background-color: none; -fx-background-radius: none;" text="Entrar" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+          <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font>
+         </Button>
+      <TextField fx:id="email" alignment="CENTER" layoutX="25.0" layoutY="196.0" prefHeight="25.0" prefWidth="250.0" promptText="E-MAIL" style="-fx-background-radius: none; -fx-border-color: gray; -fx-border-width: 2;" />
+      <PasswordField fx:id="senha" alignment="CENTER" layoutX="25.0" layoutY="237.0" prefHeight="25.0" prefWidth="250.0" promptText="SENHA" style="-fx-background-radius: none; -fx-border-color: gray; -fx-border-width: 2;" />
+      <Hyperlink fx:id="link" layoutX="27.0" layoutY="306.0" onAction="#esqueceu" text="Esqueceu sua senha ?" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Sans Bold" size="13.0" />
+         </font></Hyperlink>
+      <Label fx:id="av1" layoutX="28.0" layoutY="222.0" prefHeight="16.0" prefWidth="252.0" textFill="RED" />
+      <Label fx:id="av2" layoutX="28.0" layoutY="272.0" prefHeight="16.0" prefWidth="252.0" textFill="RED" />
+      <Button fx:id="kdt" layoutX="160.0" layoutY="447.0" mnemonicParsing="false" onAction="#novo" prefHeight="38.0" prefWidth="115.0" style="-fx-border-style: none; -fx-background-radius: none; -fx-background-color: none;" text="Cadastrar-se" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

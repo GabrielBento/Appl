@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainInfo">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Sobre/fundo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="oqf" layoutX="40.0" layoutY="171.0" mnemonicParsing="false" onAction="#goToInfo1" prefHeight="40.0" prefWidth="220.0" style="-fx-background-radius: none; -fx-background-color: gray; -fx-border-style: none;" >
+      	  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="oqef" layoutX="40.0" layoutY="220.0" mnemonicParsing="false" onAction="#goToInfo2" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: gray; -fx-background-radius: none;" >
+		  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>      
+      <Button fx:id="sv" layoutX="40.0" layoutY="271.0" mnemonicParsing="false" onAction="#goToInfo3" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: gray; -fx-background-radius: none;" >
+      	  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="sp" layoutX="40.0" layoutY="321.0" mnemonicParsing="false" onAction="#goToPublic" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: gray; -fx-background-radius: none;" >
+      	  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="back6" layoutX="14.0" layoutY="460.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: gray; -fx-background-radius: none;" text="Voltar" textFill="WHITE" >
+   		  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

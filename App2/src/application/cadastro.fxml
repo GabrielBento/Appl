@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.cadastro">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Cadastro/fundoCadastro.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txf" alignment="CENTER" layoutX="14.0" layoutY="124.0" prefHeight="25.0" prefWidth="273.0" promptText="NOME COMPLETO" style="-fx-background-radius: none;">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font></TextField>
+      <Button fx:id="cadastro01" layoutX="166.0" layoutY="454.0" mnemonicParsing="false" onAction="#load" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: none; -fx-background-radius: none; -fx-border-style: none;" text="Cadastrar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <TextField fx:id="txf2" alignment="CENTER" layoutX="14.0" layoutY="232.0" prefHeight="25.0" prefWidth="273.0" promptText="EMAIL" style="-fx-background-radius: none;" />
+      <PasswordField fx:id="pss" alignment="CENTER" layoutX="14.0" layoutY="286.0" prefHeight="25.0" prefWidth="273.0" promptText="SENHA" style="-fx-background-radius: none;" />
+      <PasswordField fx:id="pss2" alignment="CENTER" layoutX="14.0" layoutY="340.0" prefHeight="25.0" prefWidth="273.0" promptText="CONFIRMAR SENHA" style="-fx-background-radius: none;" />
+      <Button fx:id="back01" layoutX="14.0" layoutY="454.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="32.0" prefWidth="120.0" style="-fx-background-radius: none; -fx-border-style: none; -fx-background-color: none;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <DatePicker fx:id="dp" layoutX="14.0" layoutY="178.0" prefHeight="26.0" prefWidth="273.0" promptText="DATA DE NASCIMENTO " style="-fx-background-radius: none;" />
+      <Label fx:id="av1" disable="true" layoutX="14.0" layoutY="156.0" prefHeight="16.0" prefWidth="273.0" textFill="#ed0505f1" />
+      <Label fx:id="av2" disable="true" layoutX="14.0" layoutY="264.0" prefHeight="16.0" prefWidth="273.0" textFill="RED" />
+      <Label fx:id="av3" disable="true" layoutX="14.0" layoutY="318.0" prefHeight="16.0" prefWidth="273.0" textFill="RED" />
+      <Label fx:id="av4" disable="true" layoutX="14.0" layoutY="372.0" prefHeight="16.0" prefWidth="273.0" textFill="RED">
+         <font>
+            <Font name="AdamDrawn Regular" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

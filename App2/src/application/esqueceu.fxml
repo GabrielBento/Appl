@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.esqueceu">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/Esqueceu/FundoEsquec.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="19.0" layoutY="100.0" prefHeight="26.0" prefWidth="263.0" promptText="EMAIL" style="-fx-background-radius: NONE;" />
+      <Button fx:id="sair01" layoutX="14.0" layoutY="448.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: none; -fx-background-radius: none; -fx-border-style: none;" text="Voltar" textFill="WHITE" >
+        <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="env01" alignment="CENTER" layoutX="162.0" layoutY="448.0" mnemonicParsing="false" onAction="#goToGo" prefHeight="32.0" prefWidth="120.0" style="-fx-background-radius: none; -fx-background-color: none; -fx-border-style: none;" text="Enviar" textFill="WHITE" >
+		  <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>   
+   </children>
+</AnchorPane>

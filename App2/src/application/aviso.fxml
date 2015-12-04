@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Concluido2">
+   <children>
+      <ImageView fitHeight="509.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagens/fundoPrincipal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="acess" layoutX="90.0" layoutY="454.0" mnemonicParsing="false" onAction="#acessar" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: none; -fx-background-radius: none;" text="Acessar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

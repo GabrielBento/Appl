@@ -1,0 +1,313 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*Classe inicio, fxml principal */
+#ent
+{
+	-fx-background-image: url("Imagens/Button.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#kdt
+{
+	-fx-background-image: url("Imagens/Button.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe myfabs, fxml tela 2 */
+#md
+{
+	-fx-background-image: url("Imagens/ImagesMenu/MeuDescarte.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#mc
+{
+	-fx-background-image: url("Imagens/ImagesMenu/MiniCurso.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#pe
+{
+	-fx-background-image: url("Imagens/ImagesMenu/PontodeEntrega.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#conf
+{
+	-fx-background-image: url("Imagens/ImagesMenu/Configura.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sb
+{
+	-fx-background-image: url("Imagens/ImagesMenu/Sobre.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#er
+{
+	-fx-background-image: url("Imagens/ImagesMenu/Site.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sai
+{
+	-fx-background-image: url("Imagens/ImagesMenu/ButtonTp2.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe MiniCurso, fxml tela4 */
+#back2
+{
+	-fx-background-image: url("Imagens/ButtonMiniCurso.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#cadastrar2
+{
+	
+	-fx-background-image: url("Imagens/ButtonMiniCurso.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#box1
+{
+	-fx-background-image: url("Imagens/ChoiceBoxMC.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe MainInfo, tela menuInfo */
+#oqf
+{
+	-fx-background-image: url("Imagens/Sobre/OqueFab.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#oqef
+{
+	-fx-background-image: url("Imagens/Sobre/OqueEcoFab.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sv
+{
+	-fx-background-image: url("Imagens/Sobre/SuasVant.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sp
+{
+	-fx-background-image: url("Imagens/Sobre/SobreNosso.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#back6
+{
+	-fx-background-image: url("Imagens/Sobre/ButtonMI.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe PdeEntrega, fxml WebView */
+#back3
+{
+	-fx-background-image: url("Imagens/PontoEntrega/ButtonPE.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe cadastrro, fxml cadastro */
+#back01
+{
+	-fx-background-image: url("Imagens/Cadastro/ButtonC.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#cadastro01
+{
+	-fx-background-image: url("Imagens/Cadastro/ButtonC.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/* Classe Configura, fxml config*/
+#back02
+{
+	-fx-background-image: url("Imagens/Configurar/ButtonConf.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sal
+{
+	
+	-fx-background-image: url("Imagens/Configurar/ButtonConf.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe esqueceu, fxml esqueceu */
+#env01
+{
+	-fx-background-image: url("Imagens/Esqueceu/ButtonEsq.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#sair01
+{
+	-fx-background-image: url("Imagens/Esqueceu/ButtonEsq.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe GoToSite, fxml webView2 */
+#voltar02
+{
+	-fx-background-image: url("Imagens/PontoEntrega/ButtonTp2.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classes About,fxml sobre */
+#bb1
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button1.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#nxt1
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button1.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classes Abou2t,fxml sobre2 */
+#bb2
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button2.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#nxt2
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button2.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#myIn1
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button2.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classes About3,fxml sobre3 */
+#bb3
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button3.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#nxt3
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button3.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#myIn3
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button3.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classes About4,fxml sobre4 */
+#bb4
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button4.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#nxt4
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button4.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#myIn4
+{
+	-fx-background-image: url("Imagens/OutrasTelas/Button4.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe MeuDescarte, fxml tela 3 */
+#back1
+{
+	-fx-background-image: url("Imagens/MeuDescarte/ButtonMD.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#kdt2
+{
+	
+	-fx-background-image: url("Imagens/MeuDescarte/ButtonMD.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#ch1
+{
+	
+	-fx-background-image: url("Imagens/MeuDescarte/ChoiceB3.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+
+/*Classe concluido, fxml concluido */
+#cnc
+{
+	-fx-background-image: url("Imagens/Cadastro/ButtonC.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+/*Classe concluido2, fxml aviso */
+#acess
+{
+	-fx-background-image: url("Imagens/Cadastro/ButtonC.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: contain;
+}
+#box1{
+	-fx-text-fill: white;
+	-fx-tick-label-fill: white ;
+}
